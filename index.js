@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database connection with Mongoose
-mongoose.connect("mongodb+srv://hamdallahalhassan9:Hamdy2148@cluster0.3y78ywt.mongodb.net/e-commerce");
+mongoose.connect("mongodb+srv://hamda@cluster0.3y78ywt.mongodb.net/e-commerce");
 
 // API creation 
 
@@ -273,4 +273,5 @@ app.listen(port, (error)=> {
     else {
         console.log("Error: "+error)
     }
+
 }) 
