@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database connection with Mongoose
-mongoose.connect("mongodb+srv://hamda:Hamda@cluster0.3y78ywt.mongodb.net/e-commerce");
+
 
 // API creation 
 
@@ -275,4 +275,5 @@ app.listen(port, (error)=> {
     }
 
 }) 
+
 
